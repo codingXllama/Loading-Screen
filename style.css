@@ -1,10 +1,14 @@
 body {
     /* Centering the content on the screen */
+    background: url(/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    color: white;
 }
 
 /* Styling the loading text */
