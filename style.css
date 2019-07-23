@@ -44,6 +44,18 @@ body {
     animation: rotateAnimation 600ms infinite linear;
 }
 
+#logo {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    border: 1px solid red;
+    
+    /* align-content: center; */
+    align-items: center;
+
+}
+
 /* Creating style to rotate the loading animation */
 @keyframes rotateAnimation {
     to {
